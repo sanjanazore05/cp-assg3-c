@@ -13,11 +13,11 @@
 
 int main() {
     
-    int num,;
+    int num;
     int isPrime = 1;
     printf("\nPrime number detector ");
     printf("\n\nEnter a number : ");
-    scanf("%d",&n);
+    scanf("%d",&num);
     
     if (num <= 1) {
         isPrime = 0; 
@@ -47,8 +47,7 @@ Output :
 
 Prime number detector 
 
-Enter a number : 7
-
-The number 7 is odd
+Enter a number : 19
+19 is a prime number.
 
 */
