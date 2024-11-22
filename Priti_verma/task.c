@@ -1,9 +1,9 @@
 /*
   Roll No.: 12
   Student Name: Priti Verma 
-  Program Title: 
+  Program Title: Write a program to check entered year is a leap year or not
 
-  Task Given By:
+  Task Given By: 
     - Roll No. of Assignee:  10
     - Assignee Name: Fiza Khan
 */
@@ -26,8 +26,6 @@ int main() {
         printf("%d is not a leap year.\n", year);
     }
 
-/*
-Output:
+    
 Enter a year: 2024
 2024 is a leap year.
-*/
