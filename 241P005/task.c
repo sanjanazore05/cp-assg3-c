@@ -13,16 +13,29 @@
 
 int main() {
     
-    int n;
+    int num,;
+    int isPrime = 1;
     printf("\nPrime number detector ");
     printf("\n\nEnter a number : ");
     scanf("%d",&n);
     
-    if(n%2==0){
-        printf("\nThe number %d is even",n);
+    if (num <= 1) {
+        isPrime = 0; 
+    } else {
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                isPrime = 0; 
+                break;
+            }
+        }
     }
-    else{
-        printf("\nThe number %d is odd",n);
+
+    // Print the result
+    if (isPrime==1) {
+        printf("%d is a prime number.\n", num);
+    } 
+    else {
+        printf("%d is not a prime number.\n", num);
     }
    
 
