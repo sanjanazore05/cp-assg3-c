@@ -25,7 +25,8 @@ int main() {
     } else {
         printf("%d is not a leap year.\n", year);
     }
-
+return 0;
+}
     
 Enter a year: 2024
 2024 is a leap year.
